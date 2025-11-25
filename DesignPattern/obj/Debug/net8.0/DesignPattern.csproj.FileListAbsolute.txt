@@ -2,3 +2,4 @@
 /Users/rubyrover/Desktop/PJATK/2025_winter/BYT/DesignPattern/DesignPattern/obj/Debug/net8.0/DesignPattern.AssemblyInfoInputs.cache
 /Users/rubyrover/Desktop/PJATK/2025_winter/BYT/DesignPattern/DesignPattern/obj/Debug/net8.0/DesignPattern.AssemblyInfo.cs
 /Users/rubyrover/Desktop/PJATK/2025_winter/BYT/DesignPattern/DesignPattern/obj/Debug/net8.0/DesignPattern.csproj.CoreCompileInputs.cache
+/Users/rubyrover/Desktop/PJATK/2025_winter/BYT/DesignPattern/DesignPattern/obj/Debug/net8.0/DesignPattern.sourcelink.json
