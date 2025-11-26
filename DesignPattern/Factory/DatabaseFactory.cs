@@ -6,7 +6,7 @@
         {
             if(type == DatabaseType.SqlServer) {
                 return new SqlServerDatabase();
-            } else if(type == DatabaseType.OracleDatabase) {
+            } else if(type == DatabaseType.Oracle) {
                 return new OracleDatabase();
             } else {
                 throw new ArgumentException("Invalid type of database spcified");
