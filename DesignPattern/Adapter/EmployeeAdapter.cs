@@ -12,10 +12,10 @@ namespace DesignPattern.Adapter
             for (int i = 0; i < employeesArray.GetLength(0); i++)
             {
                 Employee emp = new Employee(
-                    employeesArray[i, 0],
+                    int.Parse(employeesArray[i, 0]),
                     employeesArray[i, 1],
                     employeesArray[i, 2],
-                    employeesArray[i, 3]
+                    decimal.Parse(employeesArray[i, 3])
                 );
                 
                 employees.Add(emp); 
