@@ -1,6 +1,4 @@
-﻿
-
-namespace DesignPattern.Observer
+﻿namespace DesignPattern.Observer
 {
     public interface IObserver
     {
