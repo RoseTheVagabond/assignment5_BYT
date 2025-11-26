@@ -5,9 +5,22 @@ namespace DesignPattern.Adapter
     {
         private readonly BillingSystem thirdPartyBillingSystem = new();
 
-        //public void ProcessCompanySalary(...)
-        //{
-        //    ...
-        //}
+        public void ProcessCompanySalary(string[,] employeesArray)
+        {
+            List<Employee> employees = new List<Employee>(); 
+
+            for (int i = 0; i < employeesArray.GetLength(0); i++)
+            {
+                Employee emp = new Employee(
+                    employeesArray[i, 0],
+                    employeesArray[i, 1],
+                    employeesArray[i, 2],
+                    employeesArray[i, 3]
+                );
+                
+                employees.Add(emp); 
+            }
+            thirdPartyBillingSystem.ProcessSalary(employees);
+        }
     }
 }
